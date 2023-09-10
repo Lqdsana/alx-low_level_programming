@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - Prints all possible combinations of two different digits,
- *        in ascending order.
+ * main -  prints all possible different combinations of two digits.
  *
  * Return: Always 0.
- */
+*/
 int main(void)
 {
 	int digit1, digit2;
@@ -19,7 +17,7 @@ int main(void)
 
 			if (digit1 == 8 && digit2 == 9)
 				continue;
-			
+
 			putchar(',');
 			putchar(' ');
 		}
