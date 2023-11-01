@@ -2,6 +2,8 @@
 
 /**
  * main-Entry point
+ * @argc: The number of command-line arguments.
+ * @argv: An array of strings containing the command-line arguments.
  * prints the name of the program, including the path.
  * Return: Always 0
  */
